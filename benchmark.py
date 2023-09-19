@@ -8,8 +8,10 @@ favorite_show = ("Family Guy")
 
 #Exercise 3: Create 2 variables called "height" and "age", then display in the console the product of them.
 
-height = ("5'4")
+height = (5.4)
 age = (17)
+product = ( height * age)
+print (product)
 
 # Exercise 4: Display "im going to break" in the console
 
@@ -29,13 +31,17 @@ else:
 
 # Exercise 7: Ask the user for their name, then display in the console "Hello <name>"
 
-
+name = input("Your name here: ")
+print ("Hello, " + name)
 
 # Exercise 8: Create a loop that will display each item from favorite_foods on a seperate line in the console
 
-
+for i in fav_foods:
+    print (i)
 
 # Exercise 9: Create a while loop that will never run
 
-
+x = 20
+while (x >= 21):
+    print ("hamndburmgner")
 
