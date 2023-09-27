@@ -69,7 +69,7 @@ Identify if a character is a vowel or consonant.
 EXTRA CREDIT: Tell the user if they did not enter a valid letter
 '''
 
-# The user inputs a letter, and then using conditionals it is determined whether the letter is a vowel4, a consonant, or invalid.
+# The user inputs a letter, and then using conditionals it is determined whether the letter is a vowel, a consonant, or invalid.
 letter = input("Please enter a letter: ")
 if (letter == "a" and "e" and "i " and "o" and "u"):
     print("This letter is a vowel.")
